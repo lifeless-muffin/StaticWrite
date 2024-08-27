@@ -13,6 +13,8 @@ export async function POST(request: Request) {
 
     if (webhookEvent === 'entry.create' || webhookEvent === 'entry.update' || webhookEvent === 'entry.delete') {
         revalidatePath(`/blogs/${result?.entry?.slug}`)
+        revalidatePath(`/`)
+        console.log(`Revalidated Path - /`)
         console.log(`Revalidated Path - /blogs/${result?.entry?.slug}`)
     }
     

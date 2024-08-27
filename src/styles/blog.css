@@ -1,0 +1,123 @@
+/* Blog Content Styles */
+
+/* Basic styles for the blog container */
+.blog-content {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Headings */
+  .blog-content h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: white;
+  }
+  
+  .blog-content h2 {
+    font-size: 20px;
+    margin-bottom: 14px;
+    color: white;
+
+  }
+  
+  .blog-content h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: white;
+
+  }
+  
+  .blog-content h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+
+  }
+  
+  .blog-content h5 {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: white;
+
+  }
+  
+  .blog-content h6 {
+    font-size: 12px;
+    margin-bottom: 6px;
+    color: white;
+  }
+  
+  /* Paragraphs */
+  .blog-content p {
+    margin-bottom: 16px;
+  }
+  
+  /* Links */
+  .blog-content a {
+    color: #0070f3;
+    text-decoration: none;
+  }
+  
+  .blog-content a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Lists */
+  .blog-content ul, 
+  .blog-content ol {
+    margin-bottom: 16px;
+    padding-left: 20px;
+  }
+  
+  .blog-content li {
+    margin-bottom: 8px;
+  }
+  
+  /* Blockquotes */
+  .blog-content blockquote {
+    border-left: 4px solid #ddd;
+    padding-left: 16px;
+    margin: 16px 0;
+    font-style: italic;
+    color: #555;
+  }
+  
+  /* Code Blocks */
+  .blog-content code {
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  
+  .blog-content pre {
+    background-color: #f4f4f4;
+    padding: 16px;
+    border-radius: 4px;
+    overflow-x: auto;
+  }
+  
+  /* Images */
+  .blog-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Tables */
+  .blog-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 16px;
+  }
+  
+  .blog-content th, 
+  .blog-content td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .blog-content th {
+    background-color: #f4f4f4;
+  }
